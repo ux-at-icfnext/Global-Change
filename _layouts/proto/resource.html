@@ -8,8 +8,12 @@ description: Sample prototype page, test component
 ---
 <link href="/assets/css/templates/resource.scss" rel="stylesheet">
 
-<div class="intro__tex">
-    <p class="small-text">Date: {{page.date}} | Length: {{page.video-length}}</p>
+<div class="intro__text">
+    {%if page.categories contains "video"%}
+        <p class="small-text">Date: {{page.date}} | Length: {{page.video-length}}</p>
+    {%else%}
+        <p class="small-text">Date: {{page.date}}</p>
+    {%endif%}
     <p>{{page.intro-text}}</p>
 </div>
 <div class="resource__section">
