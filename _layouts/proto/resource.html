@@ -1,0 +1,61 @@
+---
+layout: prototype
+categories: [prototype]
+title: Sample Prototype Page - Resource (Video)
+type: [sub-nav-item, prototype]
+permalink: /prototype/test-page/
+description: Sample prototype page, test component
+---
+<link href="/assets/css/templates/resource.scss" rel="stylesheet">
+
+<div class="intro__tex">
+    <p class="small-text">Date: {{page.date}} | Length: {{page.video-length}}</p>
+    <p>{{page.intro-text}}</p>
+</div>
+<div class="resource__section">
+    {%if page.categories contains "video"%}
+        <iframe width="420" height="315"
+            src="{{page.video}}">
+        </iframe>
+        <div class="video__details">
+            <div class="video__links">
+                <span><a href="">[Transcript - PDF, 3k]</a></span>
+                <span>[ Related Org Title | <a href="">Related Org Link</a> ]</span>
+            </div>
+            <div class="authors">
+                <img src="/assets/uswds/dist/img/usa-icons/people.svg"> 
+                <span style="text-align: center;">|</span> 
+                <a href="">Author Link</a>
+            </div>
+        </div>
+    {% endif %}
+    {%if page.categories contains "PDF" %}
+        <div class="pdf__section">
+            <div class="pdf">
+                <img src="https://www.appliedstemcell.com/pub/media/wysiwyg/.thumbs/.placeholder/pdf.png">
+            </div>
+            <div class="pdf__details">
+                <p>Title</p>
+                <p>Author</p>
+                <p>Publication Date</p>
+                <button class="usa-button">Download</button>
+            </div>
+        </div>
+    {% endif %}
+    {%if page.categories contains "highlight" %}
+        <div class="highlight__section">
+            <div class="highlight">
+                <img src="https://www.globalchange.gov/sites/globalchange/files/styles/resource_image/public/reports_images/USGCRP-OCP_FY22-Cover.png?itok=2XUy59CD">
+            </div>
+            <div class="highlight__details">
+                <p>Organization</p>
+                <p>Publication Year</p>
+                <button class="usa-button">Download</button>
+            </div>
+        </div>
+    {% endif %}
+</div>
+<div class="body-text">
+    <p>{{page.body-text}}</p>
+    {{ content }}
+</div>
