@@ -1,3 +1,16 @@
 .z-index{
     z-index: 0;
 }
+
+
+#-logo {
+    display: flex;
+    img {
+        max-width: 50px;
+        height: auto;
+        padding-right: 5px;
+    }
+    .usa-logo__text {
+       padding-top: 10px;
+    }
+}
