@@ -1,5 +1,5 @@
 ---
-layout: proto/resource
+layout: proto/proto-left-rail
 categories: [templates, basic-template-page, basic]
 type: [detail-page]
 title: Hi! I'm a basic page

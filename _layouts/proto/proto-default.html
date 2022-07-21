@@ -1,0 +1,30 @@
+---
+---
+<html>
+    {% include partials/head.html %}
+    <body>
+        {% if page.type contains "prototype" %}
+            {% include partials/proto/header.html %}
+        {% else %}
+        <div class="header-container">
+            {% include partials/lib/header.html %}
+            {% include partials/lib/nav.html %}
+        </div>
+        {% endif %}
+        {% if page.type contains "prototype" %}
+        <div class="content-container">
+        {% else %}
+        <div class="content">
+        {% endif %}
+            {{content}}
+        </div>
+        {% if page.type contains "prototype" %}
+            {% include partials/proto/footer.html %}
+        {% else %}
+            {% include partials/lib/footer.html %}
+        {% endif %}
+        <script src="https://kit.fontawesome.com/7f6845086e.js" crossorigin="anonymous"></script>
+        <script src="{{site.baseurl}}/assets/js/nav_mobile.js"></script>
+        <script src="{{site.baseurl}}/assets/js/template_img.js"></script>
+    </body>
+</html>
