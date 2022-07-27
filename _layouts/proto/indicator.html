@@ -1,26 +1,14 @@
 ---
 layout: proto/proto-left-rail
-categories: [prototype]
-title: Sample Prototype Page - Resource (Video)
-type: [sub-nav-item, prototype]
-permalink: /prototype/test-page/
-description: Sample prototype page, test component
 ---
-<link href="/assets/css/proto/resource.scss" rel="stylesheet">
+<link href="/assets/css/proto/indicators.scss" rel="stylesheet">
 
 <div class="intro__text">
-    {%if page.categories contains "video"%}
-        <p class="small-text">Date: {{page.date}} | Length: {{page.video-length}}</p>
-    {%else%}
-        <p class="small-text">Date: {{page.date}}</p>
-    {%endif%}
+    <p class="small-text">Date: {{page.date}}</p>
     <p>{{page.intro-text}}</p>
 </div>
 <div class="resource__section">
-    {%if page.categories contains "video"%}
-        <iframe width="420" height="315"
-            src="{{page.video}}">
-        </iframe>
+    <img src="https://via.placeholder.com/500"/>
         <div class="video__details">
             <div class="video__links">
                 <span><a href="">[Transcript - PDF, 3k]</a></span>
@@ -32,7 +20,7 @@ description: Sample prototype page, test component
                 <a href="">Author Link</a>
             </div>
         </div>
-    {% endif %}
+
     {%if page.categories contains "PDF" %}
         <div class="pdf__section">
             <div class="pdf">
