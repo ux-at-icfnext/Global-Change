@@ -7,55 +7,25 @@ layout: proto/proto-left-rail
     <p class="small-text">Date: {{page.date}}</p>
     <p>{{page.intro-text}}</p>
 </div>
+<div class="interactivity__toggle">Toggle</div>
 <div class="resource__section">
     <img src="https://via.placeholder.com/500"/>
-        <div class="video__details">
-            <div class="video__links">
-                <span><a href="">[Transcript - PDF, 3k]</a></span>
-                <span>[ Related Org Title | <a href="">Related Org Link</a> ]</span>
-            </div>
-            <div class="authors">
-                <img src="/assets/uswds/dist/img/usa-icons/people.svg"> 
-                <span style="text-align: center;">|</span> 
-                <a href="">Author Link</a>
-            </div>
+    <div class="video__details">
+        <div class="video__links">
+            <span><a href="">View Meta Data</a></span>
+            <span><a href="">Enlarge</a></span>
+            <span><a href="">Download</a></span>
         </div>
-
-    {%if page.categories contains "PDF" %}
-        <div class="pdf__section">
-            <div class="pdf">
-                <img src="https://www.appliedstemcell.com/pub/media/wysiwyg/.thumbs/.placeholder/pdf.png">
-            </div>
-            <div class="pdf__details">
-                <p>Title</p>
-                <p>Author</p>
-                <p>Publication Date</p>
-                <button class="usa-button">Download</button>
-            </div>
-        </div>
-    {% endif %}
-    {%if page.categories contains "highlight" %}
-        <div class="highlight__section">
-            <div class="highlight">
-                <img src="https://www.globalchange.gov/sites/globalchange/files/styles/resource_image/public/reports_images/USGCRP-OCP_FY22-Cover.png?itok=2XUy59CD">
-            </div>
-            <div class="highlight__details">
-                <p>Organization</p>
-                <p>Publication Year</p>
-                <p><button class="usa-button">View</button></p>
-                <button class="usa-button">Download</button>
-            </div>
-        </div>
-    {% endif %}
+    </div>
 </div>
 <div class="body-text">
     <p>{{page.body-text}}</p>
     {{ content }}
-    <h3 id="also-in-this-series">Also in this Series</h3>
+    <h3 id="also-in-this-series">Related Resources</h3>
     <ul>
-      <li><a href="">Another video resource</a></li>
-      <li><a href="">Maybe a PDF resource</a></li>
-      <li><a href="">And why not an image </a></li>
-      <li><a href="">Or even a highlight</a></li>
+      <li><a href="">Related resource</a></li>
+      <li><a href="">Related resource</a></li>
+      <li><a href="">Related Resource</a></li>
+      <li><a href="">Related Resource</a></li>
     </ul>
 </div>
