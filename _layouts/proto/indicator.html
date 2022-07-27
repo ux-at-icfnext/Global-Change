@@ -4,14 +4,14 @@ layout: proto/proto-left-rail
 <link href="/assets/css/proto/indicators.scss" rel="stylesheet">
 
 <div class="intro__text">
-    <p class="small-text">Date: {{page.date}}</p>
+    <p class="small-text date__range">Date Range: {{page.start-date}} - {{page.end-date}}</p>
     <p>{{page.intro-text}}</p>
 </div>
 <div class="interactivity__toggle">Toggle</div>
-<div class="resource__section">
+<div class="visualizer">
     <img src="https://via.placeholder.com/500"/>
-    <div class="video__details">
-        <div class="video__links">
+    <div class="visualizer__details">
+        <div class="visualizer__links">
             <span><a href="">View Meta Data</a></span>
             <span><a href="">Enlarge</a></span>
             <span><a href="">Download</a></span>
@@ -19,7 +19,7 @@ layout: proto/proto-left-rail
     </div>
 </div>
 <div class="body-text">
-    <p>{{page.body-text}}</p>
+    <p class="indicator__desc">{{page.body-text}}</p>
     {{ content }}
     <h3 id="also-in-this-series">Related Resources</h3>
     <ul>

@@ -1,0 +1,15 @@
+.date__range{
+    font-weight: bold;
+}
+.visualizer{
+    margin-top: 10px;
+}
+.visualizer__links{
+    display: grid;
+    grid-template-columns: 0.5fr 0.3fr 2fr;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.indicator__desc{
+    font-style: italic;
+}
