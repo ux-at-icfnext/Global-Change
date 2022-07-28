@@ -1,11 +1,10 @@
 ---
 layout: proto/proto-left-rail
-categories: [templates, basic-template-page, basic]
-type: [detail-page]
+categories: [prototype]
 title: Hi! I'm a basic page
-permalink: /templates/basic-page-template/basic-page/
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
-details: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Interdum consectetur libero id faucibus. Volutpat odio facilisis mauris sit. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Consequat interdum varius sit amet.
+type: [sub-nav-item, prototype]
+permalink: /prototype/basic-page/
+description: A basic prototype page
 ---
 Spicy jalapeno bacon ipsum dolor amet tri-tip venison boudin meatball alcatra. Shank andouille tongue porchetta flank pork spare ribs tenderloin short ribs pastrami sirloin ham ground round. 
 {: .intro}

@@ -1,0 +1,35 @@
+---
+layout: proto/proto-left-rail
+---
+<link href="/assets/css/proto/indicators.scss" rel="stylesheet">
+
+<div class="intro__text">
+    <p class="small-text date__range">Date Range: {{page.start-date}} - {{page.end-date}}</p>
+    <p>{{page.intro-text}}</p>
+</div>
+<div class="interactivity__toggle">Toggle</div>
+<div class="visualizer">
+    <img src="https://www.columnfivemedia.com/wp-content/uploads/2021/03/How-to-use-data-visualization-report-design.png"/>
+    <div class="visualizer__details">
+        <div class="visualizer__links">
+            <span><a href="">View Meta Data</a></span>
+            <span><a href="">Enlarge</a></span>
+            <span><a href="">Download</a></span>
+        </div>
+    </div>
+</div>
+<div class="body-text">
+    <p class="indicator__desc">{{page.body-text}}</p>
+    <h3>{{page.body-header}}</h3>
+    {{ content }}
+    <h3 id="also-in-this-series">Related Resources</h3>
+    <ul>
+      <li><a href="">Related resource</a></li>
+      <li><a href="">Related resource</a></li>
+      <li><a href="">Related Resource</a></li>
+      <li><a href="">Related Resource</a></li>
+    </ul>
+</div>
+<div class="explore">
+    <h3>Explore USGCRP Indicators</h3>
+</div>

@@ -1,12 +1,12 @@
 ---
-layout: prototype
+layout: proto/proto-left-rail
 categories: [prototype]
 title: Sample Prototype Page - Resource (Video)
 type: [sub-nav-item, prototype]
 permalink: /prototype/test-page/
 description: Sample prototype page, test component
 ---
-<link href="/assets/css/templates/resource.scss" rel="stylesheet">
+<link href="/assets/css/proto/resource.scss" rel="stylesheet">
 
 <div class="intro__text">
     {%if page.categories contains "video"%}
@@ -23,15 +23,23 @@ description: Sample prototype page, test component
         </iframe>
         <div class="video__details">
             <div class="video__links">
-                <span><a href="">[Transcript - PDF, 3k]</a></span>
                 <span>[ Related Org Title | <a href="">Related Org Link</a> ]</span>
             </div>
-            <div class="authors">
-                <img src="/assets/uswds/dist/img/usa-icons/people.svg"> 
-                <span style="text-align: center;">|</span> 
-                <a href="">Author Link</a>
-            </div>
         </div>
+    {% endif %}
+    {%if page.categories contains "podcast"%}
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" 
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/296997442&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+    </iframe>
+    <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;
+        overflow: hidden;white-space: nowrap;text-overflow: ellipsis; 
+        font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+        font-weight: 100;">
+        <a href="https://soundcloud.com/ambianceofficial" title="Ambiance" target="_blank" 
+            style="color: #cccccc; text-decoration: none;">Ambiance</a> ·
+             <a href="https://soundcloud.com/ambianceofficial/rapid-tide" title="Rapid Tide" target="_blank" 
+                style="color: #cccccc; text-decoration: none;">Rapid Tide</a>
+    </div>
     {% endif %}
     {%if page.categories contains "PDF" %}
         <div class="pdf__section">
