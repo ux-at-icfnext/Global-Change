@@ -101,4 +101,11 @@ a {
 ul, ol {
     font-family: $body-font;
     margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 72ex;
+    ul, ol {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }

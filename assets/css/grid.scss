@@ -27,3 +27,11 @@ $grid-xl-max: 1400px;
 .full-text{
     width: 100%;
 }
+
+.usa-content {
+    @media screen and (min-width: $grid-lg-min) {
+        max-width: 1024px;
+        margin: auto;
+        padding-left: 25px;
+    }
+}
