@@ -3,6 +3,10 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: npm install && npm run build && bundle install
+  - init: npm install && npm run build
+    command: bundle install && jekyll serve
+
+ports:
+  - onOpen: open-browser
 
 
