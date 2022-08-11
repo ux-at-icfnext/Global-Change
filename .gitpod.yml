@@ -6,7 +6,5 @@ tasks:
   - init: npm install && npm run build
     command: bundle install && jekyll serve
 
-ports:
-  - onOpen: open-browser
 
 
