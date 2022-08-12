@@ -1,5 +1,5 @@
 ---
-layout: proto/resource
+layout: proto/highlights
 categories: [prototype, highlight]
 title: Resource Highlight
 type: [sub-nav-item, prototype]

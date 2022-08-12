@@ -7,4 +7,3 @@ tasks:
     command: bundle install && jekyll serve
 
 
-
