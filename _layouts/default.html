@@ -2,7 +2,7 @@
 ---
 <html>
     {% include partials/head.html %}
-    <body>
+    <body class="{{ page.body-class }}">
         {% if page.type contains "prototype" %}
             {% include partials/proto/banner.html %}
             {% include partials/proto/header.html %}
