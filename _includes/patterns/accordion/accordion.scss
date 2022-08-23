@@ -1,0 +1,9 @@
+.usa-accordion {
+    ul, ol {
+        max-width: 100%;
+    }
+}
+
+.usa-content ul:not(.usa-accordion):not(.usa-accordion--bordered) {
+    max-width: 100%;
+}
