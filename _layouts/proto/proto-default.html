@@ -20,10 +20,10 @@
         </div>
         {% if page.type contains "prototype" %}
             {% include partials/proto/footer.html %}
+            {% include partials/proto/identifier.html %}
         {% else %}
             {% include partials/lib/footer.html %}
         {% endif %}
-        {% include partials/identifier.html %}
         <script src="https://kit.fontawesome.com/7f6845086e.js" crossorigin="anonymous"></script>
         <script src="{{site.baseurl}}/assets/js/nav_mobile.js"></script>
         <script src="{{site.baseurl}}/assets/js/template_img.js"></script>

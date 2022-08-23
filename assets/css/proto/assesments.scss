@@ -1,0 +1,74 @@
+
+.tabbed {
+	overflow-x: hidden; /* so we could easily hide the radio inputs */
+	margin: 32px 0;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #ccc;
+}
+
+.tabbed [type="radio"] {
+	/* hiding the inputs */
+	display: none;
+}
+
+.tabs {
+	display: flex;
+	align-items: stretch;
+	list-style: none;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+    margin-left: 0;
+}
+.tab > label {
+	display: block;
+	margin-bottom: -1px;
+	padding: 12px 15px;
+	border: 1px solid #ccc;
+	background: #eee;
+	color: #666;
+	font-size: 12px; 
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;	
+	transition: all 0.3s;
+}
+.tab:hover label {
+	border-top-color: #333;
+	color: #333;
+}
+
+.assessments {
+    .usa-card:nth-child(1){
+        h2::before {
+            font-family: "Font Awesome 6 Pro"; font-weight: 900; content: "\f4af";
+            padding-right: 5px;
+        }
+        h2 {
+            background-color: #666;
+            color: white;
+            padding: 5px;
+        }
+        .usa-button {
+            background-color: #5e9f69;
+        }
+    }
+    .content-rap {
+        display: flex;
+        
+    }
+    .article {
+        padding-right: 20px;
+    
+    }
+    
+    .related-resources {
+        padding-top: 50px;
+    }
+    .tab:nth-of-type(1) label {
+        border-bottom-color: #fff;
+        border-top-color: #B721FF;
+        background: #fff;
+        color: #222;
+    }
+}
