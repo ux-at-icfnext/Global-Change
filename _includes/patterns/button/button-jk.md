@@ -1,0 +1,1 @@
+<button class="usa-button">{{page.button}}</button>
