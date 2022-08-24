@@ -6,8 +6,14 @@ layout: proto/proto-left-rail
 <div class="intro__text">
     <p>{{page.intro-text}}</p>
 </div>
+<div class="filters">
+  {% include patterns/combo-box/combo-box.md %}
+  {% include patterns/combo-box/combo-box.md %}
+  {% include patterns/combo-box/combo-box.md %}
+  {% include patterns/combo-box/combo-box.md %}
+</div>
 <div class="highlight__cards">
-  {% include patterns/card/card-jk.md %}
+  {% include patterns/card/card-jk-highlight.md %}
 </div>
 <div class="pagination">
     <nav aria-label="Pagination" class="usa-pagination">

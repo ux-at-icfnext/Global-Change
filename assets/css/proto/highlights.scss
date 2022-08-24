@@ -1,3 +1,9 @@
 .highlight__cards{
     display: block;
 }
+.filters{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}
