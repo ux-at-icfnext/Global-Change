@@ -1,5 +1,13 @@
 .filters{
-    text-align: right;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.filter-tags{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.filter-tags button{
+    background-color: gray;
+    color: white;
+    padding: 5px;
 }
