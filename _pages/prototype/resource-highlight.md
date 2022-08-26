@@ -1,7 +1,7 @@
 ---
 layout: proto/highlights
 categories: [prototype, highlight]
-title: Resource Highlight
+title: Highlights
 type: [sub-nav-item, prototype]
 permalink: /prototype/resource-highlight/
 description: Resource Highlight page
