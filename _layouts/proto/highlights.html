@@ -7,7 +7,13 @@ layout: proto/proto-left-rail
     <p>{{page.intro-text}}</p>
 </div>
 <div class="filters">
-  {% include patterns/button/button-jk.md %}
+  <h4>Filters</h4>
+  {% include patterns/accordion/accordion.md %}
+  <div class="filter-tags">
+    <button>Selected Filter</button>
+    <button>Selected Filter</button>
+    <button>Selected Filter</button>
+  </div>
 </div>
 <div class="highlight__cards">
   {% include patterns/card/card-jk-highlight.md %}
