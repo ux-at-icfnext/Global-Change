@@ -3,12 +3,15 @@
 }
 .filter-tags{
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 15px;
 }
-.filter-tags button{
+.filter-tags span{
     background-color: gray;
     color: white;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 10px;
 }
