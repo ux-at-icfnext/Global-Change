@@ -1,3 +1,7 @@
+.body__content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 .filters{
     margin-bottom: 30px;
 }

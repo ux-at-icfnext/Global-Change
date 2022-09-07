@@ -2,7 +2,7 @@
 layout: proto/highlights
 categories: [prototype, highlight]
 title: Highlights
-type: [sub-nav-item, prototype]
+type: [prototype]
 permalink: /prototype/resource-highlight/
 description: Resource Highlight page
 date: "January 27, 2022"
