@@ -1,6 +1,8 @@
 .body__content{
     display: grid;
     grid-template-columns: auto auto;
+    gap: 1rem;
+    margin-top: 40px;
 }
 .filters{
     margin-bottom: 30px;
