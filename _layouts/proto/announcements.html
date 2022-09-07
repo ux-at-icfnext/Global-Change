@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<link href="/assets/css/proto/announcements.scss" rel="stylesheet">
+
+<div class="page__header">
+    <div class="title">
+        <h2>{{page.title}}</h2>
+    </div>
+    <div class="sort__by">
+    </div>
+</div>
+<div class="intro-text">
+    {{page.intro-text}}
+</div>
+<div class="announcements_section">
+    {%for item in page.announcements%}
+    <div class="announcement">
+        <div class="announcement-header">
+            <h4>{{item.title}}</h4>
+            <span>{{item.date}}</span>
+        </div>
+        <p>{{item.author}}</p>
+        <div class="announcement-body">
+            <img src="{{item.img}}"/>
+            <div class="announcement-body-content">
+                <p>{{item.content}}</p>
+                <a href="" class="announcement-link">Continue Reading</a>
+            </div>
+        </div>
+    </div>
+    {%endfor%}
+</div>

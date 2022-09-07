@@ -1,0 +1,19 @@
+.announcements_section{
+    margin-top: 30px;
+}
+.announcement{
+    margin-bottom: 30px;
+    border-bottom: solid black 2px;
+    padding: 15px;
+}
+.announcement-header{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.announcement-body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.announcement-link{
+    margin-top: 20px;
+}
