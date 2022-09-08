@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<link href="/assets/css/proto/announcements.scss" rel="stylesheet">
+
+<div class="page__header">
+    <div class="title">
+        <h2>{{page.title}}</h2>
+    </div>
+    <div class="sort__by">
+        <label for="filters">Sort by:</label>
+        <select name="filters" id="filters">
+        <option value="date">Date</option>
+        <option value="author">Author</option>
+        </select>
+    </div>
+</div>
+<div class="intro-text">
+    {{page.intro-text}}
+</div>
+<div class="announcements_section">
+    {%for item in page.announcements%}
+    <div class="announcement-wrapper">
+        <div class="announcement">
+            <img src="{{item.img}}"/>
+            <div class="announcement-content">
+                <div class="announcement-header">
+                    <h4>{{item.title}}</h4>
+                    <span>{{item.date}}</span>
+                </div>
+                <p>Author: {{item.author}}</p>
+                <p>{{item.content}}</p>
+                <a href="" class="announcement-link">{{item.link}}</a>
+            </div>
+        </div>
+    </div>
+    {%endfor%}
+</div>
+<div class="pagination">
+    {% include patterns/pagination/pagination.md %}
+</div>
