@@ -1,7 +1,7 @@
 .announcements_section{
     margin-top: 30px;
 }
-.announcement{
+.announcement-wrapper{
     margin-bottom: 30px;
     border-bottom: solid black 2px;
     padding: 15px;
@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: auto auto;
 }
-.announcement-body{
+.announcement{
     display: grid;
     grid-template-columns: 1fr 3fr;
 }

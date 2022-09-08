@@ -21,7 +21,7 @@ announcements:
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor purus non enim praesent elementum facilisis leo vel fringilla. Purus gravida quis blandit turpis cursus in hac habitasse. Libero id faucibus nisl tincidunt eget nullam non nisi.
   - title: Announcement Heading
     date: October 10, 2021
-    author: Scott Pilgram
+    author: Scott Anderson
     img: https://via.placeholder.com/150
     content: Tellus orci ac auctor augue mauris augue. Libero enim sed faucibus turpis in. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Ultricies integer quis auctor elit sed. Volutpat maecenas volutpat blandit aliquam etiam erat.
     link: Continue Reading
