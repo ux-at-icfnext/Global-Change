@@ -20,9 +20,6 @@
             </div>
         {% endif %}
       <div class="usa-card__body">
-        <p class="italics">
-          {{card.italics}}
-        </p>
         <p>
             {{card.content}}
         </p>

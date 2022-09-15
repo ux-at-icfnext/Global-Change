@@ -21,37 +21,29 @@ cards:
   - title: Highlight Title
     tags: Highlight Tag
     img: https://via.placeholder.com/150
-    italics: Highlight Source - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    content: Highlight Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
+    button: Read More
+  - title: Highlight Title
+    tags: Highlight Tag
     content: Highlight Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
     button: Read More
   - title: Highlight Title
     tags: Highlight Tag
     img: https://via.placeholder.com/150
-    italics: Highlight Source - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     content: Highlight Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
     button: Read More
   - title: Highlight Title
     tags: Highlight Tag
     img: https://via.placeholder.com/150
-    italics: Highlight Source - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     content: Highlight Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
     button: Read More
   - title: Highlight Title
     tags: Highlight Tag
     img: https://via.placeholder.com/150
-    italics: Highlight Source - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     content: Highlight Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
     button: Read More
   - title: Highlight Title
     tags: Highlight Tag
-    img: https://via.placeholder.com/150
-    italics: Highlight Source - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    content: Highlight Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
-    button: Read More
-  - title: Highlight Title
-    tags: Highlight Tag
-    img: https://via.placeholder.com/150
-    italics: Highlight Source - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     content: Highlight Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
     button: Read More
 ---
